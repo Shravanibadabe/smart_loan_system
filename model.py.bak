@@ -1,0 +1,29 @@
+import sys
+from sklearn.tree import DecisionTreeClassifier
+
+# Training Data
+X = [
+    [5000,200,1],
+    [2000,100,0],
+    [6000,250,1],
+    [3000,150,1],
+    [1500,120,0],
+    [7000,300,1],
+    [2500,130,0]
+]
+
+y = [1,0,1,1,0,1,0]
+
+model = DecisionTreeClassifier()
+model.fit(X,y)
+
+income = int(sys.argv[1])
+loan = int(sys.argv[2])
+credit = int(sys.argv[3])
+
+prediction = model.predict([[income,loan,credit]])
+
+if prediction[0] == 1:
+    print("Loan Approved")
+else:
+    print("Loan Rejected")
