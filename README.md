@@ -49,8 +49,8 @@ The Smart Loan Approval System is a web-based application designed to automate t
 ![Login](images/login.png)
 
 ### 📊 Dashboard  
-![Dashboard](images/dashboard.png)
-
+![Dashboard](images/dashboard1.png)
+![Dashboard](images/dashboard2.png)
 ### 📈 Loan Prediction Result  
 ![Result](images/result.png)
 
