@@ -43,7 +43,7 @@ The Smart Loan Approval System is a web-based application designed to automate t
 
 ## 📊 Output Screenshots
 
-👉 *(Add your project screenshots here)*  
+  
 
 ### 🔐 Login Page  
 ![Login](images/login.png)
